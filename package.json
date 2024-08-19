@@ -1,17 +1,17 @@
 {
-  "name": "blogwebsite",
+  "name": "money-tracker-app",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start":"node server.js",
-    "blogwebsite": "nodemon server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "ejs": "^3.1.10",
+    "body-parser": "^1.20.2",
     "express": "^4.19.2",
-    "mongoose": "^8.5.3"
+    "mongoose": "^8.5.3",
+    "nodemon": "^3.1.4"
   }
 }
